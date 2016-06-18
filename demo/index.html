@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Slash Client Card Tokenizing</title>
+
+	<script type="text/javascript" src="../bower_components/jsencrypt/bin/jsencrypt.js"></script>
+	<script type="text/javascript" src="../src/slash-client.js"></script>
+
+	<script type="text/javascript">
+		var slashClient = new SlashClient({
+			publicKey: 'MCAwDQYJKoZIhvcNAQEBBQADDwAwDAIFAKxIhY0CAwEAAQ=='
+		});
+		slashClient.tokenize({
+			"first_name": "Promsopheak", 
+			"last_name": "Nuon", 
+			"cc_no": "4111111111111111", 
+			"cvv": "223", 
+			"expiry_month": "09", 
+			"expiry_year": "2021"
+		}, function (success){
+			console.log(success);
+		}, function (error){
+			console.log(error);
+		});
+	</script>
+</head>
+
+<body>
+	The content of the document......
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "slash-client-js",
+  "authors": [
+    "Promsopheak <npsopheak@gmail.com>"
+  ],
+  "description": "Client javascript to access slash api end point",
+  "main": "dist/slash-client.js",
+  "moduleType": [],
+  "keywords": [
+    "slash",
+    "clients"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jsencrypt": "^2.3.0"
+  }
+}
