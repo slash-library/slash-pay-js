@@ -20,15 +20,23 @@
 			"expiry_month": "09", 
 			"expiry_year": "2021"
 		}, function (success){
-			console.log(success);
+			console.info('Slash Tokenize Result:');
+			console.log(success.result);
 		}, function (error){
-			console.log(error);
+			console.info('Slash Tokenize Error:');
+			console.error(error);
 		});
 	</script>
 </head>
 
 <body>
-	The content of the document......
+	For now, you can check in the console and you will see two requests to the server API.
+	<br/>
+	<h4>1. Request Keys</h4>
+	<p>The response will return key and the ID of the request.</p>
+	<br/>
+	<h4>2. Create Token</h4>
+	<p>The response will return the token result of the request.</p>
 </body>
 
 </html>
