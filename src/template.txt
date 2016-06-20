@@ -1,0 +1,16 @@
+/*! SlashClient v<%= data.version %> | https://npmcdn.com/slashpayjs@<%= data.version %>/LICENSE.txt */
+var SlashClientExports = {};
+(function(exports) {
+    <%= data.contents %>
+SlashClient.version = '<%= data.version %>';
+exports.SlashClient = SlashClient;
+})(SlashClientExports);
+(function (global, factory) {
+  if (typeof exports === 'object' && typeof module !== 'undefined') {
+    module.exports = factory;
+  } else if (typeof define === 'function' && define.amd) {
+    define(factory);
+  } else {
+    global.SlashClient = factory;
+  }
+}(this, SlashClientExports.SlashClient));
