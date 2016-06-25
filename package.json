@@ -1,0 +1,33 @@
+{
+  "name": "slash-pay-js",
+  "version": "1.0.0",
+  "description": "Client javascript to access slash api end point",
+  "main": "dist/slash-client.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-wrap": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slash-library/slash-pay-js.git"
+  },
+  "keywords": [
+    "slash",
+    "clients"
+  ],
+  "author": "Promsopheak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slash-library/slash-pay-js/issues"
+  },
+  "homepage": "https://github.com/slash-library/slash-pay-js"
+}
