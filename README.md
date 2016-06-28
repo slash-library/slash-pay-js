@@ -40,9 +40,9 @@ var slashClient = new SlashClient({
 
 ###How to obtain your publicKey
 
-Obtaining your publicKey can be done throught our console website ![alt tag](https://console.slash.us.com).
+Obtaining your publicKey can be done throught our console website <https://console.slash.us.com>.
 
-If you do not have an Slash account yet, you could register a new Slash account at ![alt tag](https://console.slash.us.com/register).
+If you do not have an Slash account yet, you could register a new Slash account at <https://console.slash.us.com/register>.
 
 Once you have your account registered, you can login and access the Slash console dashboard and will able to see your API Keys in page *API Keys* from your left-hand side menu.
 
@@ -101,7 +101,7 @@ We ensure that your card information is securely encrypted when requesting to ou
 
 Once you call `slashClient.tokenize` method, we request for a public key for this request from our server to encrypt your card number information, which the encryped card number cannot be decrypted without the private key that we have generated store on the server.
 
-After encrypting your card number, the library will continue request to our API endpoint `/tokenize` to tokenizing the card from the specific vender that you have specified in ![alt tag](https://console.slash.us.com) and responding the card token information via the success callback.
+After encrypting your card number, the library will continue request to our API endpoint `/tokenize` to tokenizing the card from the specific vender that you have specified in <https://console.slash.us.com> and responding the card token information via the success callback.
 
 ###Methods
 
