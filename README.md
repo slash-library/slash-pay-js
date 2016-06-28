@@ -44,24 +44,24 @@ Obtaining your publicKey can be done throught our console website <https://conso
 
 If you do not have an Slash account yet, you could register a new Slash account at <https://console.slash.us.com/register>.
 
-Once you have your account registered, you can login and access the Slash console dashboard and will able to see your API Keys in page *API Keys* from your left-hand side menu.
+Once you have your account registered, you can login and access the Slash console dashboard and will able to see your API Keys in page **API Keys** from your left-hand side menu.
 
-*Notes:* Before you are able to use those keys to request to Slash endpoint, you have to complete two more steps:
-- Configuring vendor's API keys from *SERVICE SETTINGS* section
-- Selecting the default vendor from *ROUTER* page.
+**Notes:** Before you are able to use those keys to request to Slash endpoint, you have to complete two more steps:
+- Configuring vendor's API keys from **SERVICE SETTINGS** section
+- Selecting the default vendor from **ROUTER** page.
 
 ####Configuring vendor's API keys
 
 - Select your prefered vendor name from the menu (Stripe, Braintree, PayPal) (there will be many more in the future).
-- Fill in your live API keys into *YOUR PRODUCTION KEYS* section
-- Fill in your sandbox API keys into *YOUR SANDBOX KEYS* section
-- Click *Save* to save your changes
+- Fill in your live API keys into **YOUR PRODUCTION KEYS** section
+- Fill in your sandbox API keys into **YOUR SANDBOX KEYS** section
+- Click **Save** to save your changes
 
 ####Selecting the default vendor
 
 - Select Router menu from the side bar
-- Select your prefered default vendor under *SELECT YOUR PAYMENT SERVICE* section
-- Click *Save* to save your changes
+- Select your prefered default vendor under **SELECT YOUR PAYMENT SERVICE** section
+- Click **Save** to save your changes
 
 And now, you are ready to use your API Keys!
 
