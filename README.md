@@ -101,7 +101,7 @@ We ensure that your card information is securely encrypted when requesting to ou
 
 Once you call `slashClient.tokenize` method, we request for a public key for this request from our server to encrypt your card number information, which the encryped card number cannot be decrypted without the private key that we have generated and stored on the server.
 
-After encrypting your card number, the library will continue request to our API endpoint `/tokenize` to tokenizing the card from the specific vender that you have specified in <https://console.slash.us.com> and responding the card token information via the success callback.
+After encrypting your card number, the library will continue request to our API endpoint `/tokenize` to tokenizing the card from the specific vendor that you have specified in <https://console.slash.us.com> and responding the card token information via the success callback.
 
 ###Methods
 
