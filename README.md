@@ -129,6 +129,60 @@ slashClient.setKey('YOUR_SLASH_PUBLIC_KEY');
 
 ```
 
+###Responses
+
+You will got response from the callback of success or error when you request complete and response back the success or error response.
+
+####Success Response Format
+
+```javascript
+{
+    // Access result object for the responded data from endpoint
+    "result": {
+        "tokenId": "CARD_TOKEN",
+        "card": {
+		// Card information...   
+        },
+        "timestamp": 1467360095,
+        "cardholderName": "CARD_HOLDER_NAME",
+        "cardType": "CARD_TYPE"
+    },
+    "code": 200, // Success code
+    "options": {
+        "paymentService": "STRIPE|PAYPAL|BRAINTREE",
+        "slashTransactionId": null
+    },
+    "error": null // There is no error, so this error is null
+}
+
+```
+
+####Error Response Format
+
+```javascript
+{
+    "result": null,
+    "code": 400,
+    // Access options object for errors detail
+    "options": {
+        "errorCode": 401,
+        "errorType": "ERROR_TYPE",  // This is where you see the error type from slash
+        "messages": [
+            // Error messages...
+        ]
+    },
+    "error": 'ERROR_TITLE'// Error message title
+}
+```
+
+####Possible Error Types
+
+Error Type  | Error Description
+------------- | -------------
+SlashAuthenticationError  | This is the authentication error which you provide the invalid API key in the configuration.
+SlashInvalidRequestError  | This is the error occurred when your request fails the validation, or having invalid payment service selected.
+SlashPaymentRequestError |  This is the error occurred when there was an error from payment service vendor.
+
 ##Development
 
 Build the release
