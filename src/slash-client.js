@@ -8,8 +8,8 @@
 var SlashClient = function (options) {
   	options = options || {};
   	this.publicKey = options.publicKey;
-  	this.api = 'http://api.slash.us.com/v1/';
-  	// this.api = 'http://localhost:1337/v1/';
+  	this.api = 'https://api.slash.us.com/v1/';
+  	// this.api = 'https://localhost:1337/v1/';
   	// Logging
   	var getType = {};
   	if (!window.JSEncrypt || getType.toString.call(window.JSEncrypt) !== '[object Function]'){
