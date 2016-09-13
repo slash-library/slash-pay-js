@@ -1,4 +1,4 @@
-/*! SlashClient v<%= data.version %> | https://npmcdn.com/slashpayjs@<%= data.version %>/LICENSE.txt */
+/*! SlashClient v<%= data.version %> | https://unpkg.com/slashpayjs@<%= data.version %>/LICENSE.txt */
 var SlashClientExports = {};
 (function(exports) {
     <%= data.contents %>
